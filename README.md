@@ -1,15 +1,21 @@
-# TSLint Config Standard
+# TSLint Config Standard Plus :tada:
 
-[![NPM version](https://img.shields.io/npm/v/dcl-tslint-config-standard.svg?style=flat)](https://npmjs.org/package/dcl-tslint-config-standard)
-[![NPM downloads](https://img.shields.io/npm/dm/dcl-tslint-config-standard.svg?style=flat)](https://npmjs.org/package/dcl-tslint-config-standard)
-[![Build status](https://img.shields.io/travis/decentraland/tslint-config-standard.svg?style=flat)](https://travis-ci.org/decentraland/tslint-config-standard)
+[![Build Status](https://travis-ci.org/joseluisq/tslint-config-standard-plus.svg?branch=master)](https://travis-ci.org/joseluisq/tslint-config-standard-plus) [![npm](https://img.shields.io/npm/v/tslint-config-standard-plus.svg)](https://www.npmjs.com/package/tslint-config-standard-plus) [![npm](https://img.shields.io/npm/dt/tslint-config-standard-plus.svg)](https://www.npmjs.com/package/tslint-config-standard-plus) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
-> A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/)
+> A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/) with a plus of useful rules.
 
-## Installation
+## Install
+
+[Yarn](https://github.com/yarnpkg/)
 
 ```sh
-npm install dcl-tslint-config-standard --save-dev
+yarn add tslint-config-standard-plus --dev
+```
+
+[NPM](https://www.npmjs.com/)
+
+```sh
+npm install tslint-config-standard-plus --save-dev
 ```
 
 ## Usage
@@ -18,7 +24,7 @@ In `tslint.json`:
 
 ```json
 {
-  "extends": "dcl-tslint-config-standard"
+  "extends": "tslint-config-standard-plus"
 }
 ```
 
@@ -26,13 +32,26 @@ In `tslint.json`:
 
 ### Rules
 
-* [TSLint](https://www.npmjs.com/package/tslint)
-* [TSLint ESLint Rules](https://www.npmjs.com/package/tslint-eslint-rules)
+TODO
 
 ### Help
 
 Many [**TSLint ESLint Rules**](https://github.com/buzinas/tslint-eslint-rules#rules-copied-from-the-eslint-website) are incomplete and can use your help!
 
+### Inspiration
+This config is highly inspired by these awesome projects:
+
+- [tslint-clean-code](https://github.com/Glavin001/tslint-clean-code) [dependecy]
+- [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules) [dependecy]
+- [tslint-no-circular-imports](https://github.com/bcherny/tslint-no-circular-imports) [dependecy]
+- [dcl-tslint-config-standard](https://github.com/decentraland/dcl-tslint-config-standard) [fork]
+
+## Contributions
+
+Feel free to send some [Pull request](https://github.com/joseluisq/tslint-config-standard-plus/pulls) or [issue](https://github.com/joseluisq/tslint-config-standard-plus/issues).
+
 ## License
 
-Apache 2.0
+MIT license
+
+© 2018 [José Luis Quintana](http://git.io/joseluisq)
