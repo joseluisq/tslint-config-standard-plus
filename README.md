@@ -20,7 +20,7 @@ npm install tslint-config-standard-plus --save-dev
 
 ## Usage
 
-In `tslint.json`:
+In your `tslint.json` file:
 
 ```json
 {
@@ -28,11 +28,9 @@ In `tslint.json`:
 }
 ```
 
-**P.S.** Some TSLint rules may require the use of `--project`.
-
 ### Rules
 
-TODO
+Check out [tslint.js](./tslint.js) file.
 
 ### Help
 
