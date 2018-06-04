@@ -28,15 +28,11 @@ In your `tslint.json` file:
 }
 ```
 
-### Rules
+## Rules
 
 Check out [tslint.js](./tslint.js) file.
 
-### Help
-
-Many [**TSLint ESLint Rules**](https://github.com/buzinas/tslint-eslint-rules#rules-copied-from-the-eslint-website) are incomplete and can use your help!
-
-### Inspiration
+## Inspiration
 This config is highly inspired by these awesome projects:
 
 - [tslint-clean-code](https://github.com/Glavin001/tslint-clean-code) [dependecy]

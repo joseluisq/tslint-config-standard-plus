@@ -23,7 +23,7 @@ test('tslint standard', function (t) {
     fs.readFile(OUT_FILENAME, 'utf8', function (err, result) {
       t.notOk(err)
 
-      t.equal(out, result)
+      t.equal(out + '\n', result)
       t.equal(stderr, '')
 
       t.end()
