@@ -57,15 +57,19 @@ module.exports = {
     'no-reference-import': true,
     'no-return-await': true,
     'no-switch-case-fall-through': true,
-    'no-unused-expression': [
-      true,
-      'allow-fast-null-checks',
-      'allow-tagged-template'
-    ],
-    'no-unused-variable': [ true, { 'ignore-pattern': '^_' } ],
+    'no-unused-expression': {
+      'severity': 'warning',
+      'options': [
+        'allow-fast-null-checks',
+        'allow-tagged-template'
+      ]
+    },
+    'no-unused-variable': {
+      'severity': 'warning',
+      'options': { 'ignore-pattern': '^_' }
+    },
     'no-use-before-declare': true,
     'no-var-keyword': true,
-    radix: true,
     'return-undefined': true,
     'space-within-parens': [ true, 0 ],
     'triple-equals': [ true, 'allow-null-check' ],
@@ -92,7 +96,7 @@ module.exports = {
     'new-parens': true,
     'no-angle-bracket-type-assertion': true,
     'no-consecutive-blank-lines': true,
-    'no-floating-promises': true,
+    'no-floating-promises': { 'severity': 'warning' },
     'no-misused-new': true,
     'no-string-throw': true,
     'no-unnecessary-qualifier': true,
@@ -181,6 +185,6 @@ module.exports = {
       'always'
     ],
     // tslint-clean-code rules
-    'no-commented-out-code': true
+    'no-commented-out-code': { 'severity': 'warning' }
   }
 }
