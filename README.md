@@ -30,14 +30,14 @@ In your `tslint.json` file:
 
 ## Rules
 
-Check out [tslint.js](./tslint.js) file.
+Check out all rules in [tslint.js](./tslint.js) file.
 
 ## Inspiration
 This config is highly inspired by these awesome projects:
 
-- [tslint-clean-code](https://github.com/Glavin001/tslint-clean-code) [dependecy]
-- [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules) [dependecy]
-- [tslint-no-circular-imports](https://github.com/bcherny/tslint-no-circular-imports) [dependecy]
+- [tslint-clean-code](https://github.com/Glavin001/tslint-clean-code) [dependency]
+- [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules) [dependency]
+- [tslint-no-circular-imports](https://github.com/bcherny/tslint-no-circular-imports) [dependency]
 - [dcl-tslint-config-standard](https://github.com/decentraland/dcl-tslint-config-standard) [fork]
 
 ## Contributions
