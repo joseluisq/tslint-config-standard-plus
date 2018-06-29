@@ -6,7 +6,12 @@ module.exports = {
   ],
   rules: {
     // TSLint rules
-    'max-line-length': [ true, 120 ],
+    'max-line-length': {
+      'severity': 'warning',
+      'options': [
+        120
+      ]
+    },
     'member-ordering': [
       true,
       {
