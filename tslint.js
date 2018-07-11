@@ -147,6 +147,15 @@ module.exports = {
       'check-type-operator',
       'check-preblock'
     ],
+    'ordered-imports': {
+      'severity': 'warning',
+      'options': {
+        'grouped-imports': false,
+        'import-sources-order': 'any',
+        'named-imports-order': 'case-insensitive',
+        'module-source-path': 'basename'
+      }
+    },
 
     // TSLint / ESLint
     'no-constant-condition': [
@@ -190,7 +199,6 @@ module.exports = {
       true,
       'always'
     ],
-    'sort-imports': true,
 
     // Clean Code
     'no-commented-out-code': { 'severity': 'warning' }
