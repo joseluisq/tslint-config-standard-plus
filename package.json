@@ -9,7 +9,7 @@
     "LICENSE.md"
   ],
   "scripts": {
-    "lint": "standard",
+    "lint": "standard --parser babel-eslint",
     "test:gen": "GENERATE_ASSETS=true blue-tape test/index.js",
     "test:spec": "blue-tape test/index.js | tap-spec",
     "test": "npm run lint && npm run test:spec"
@@ -31,6 +31,7 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^10.5.2",
+    "babel-eslint": "^8.2.5",
     "blue-tape": "^1.0.0",
     "eslint": "^5.1.0",
     "eslint-config-standard": "^11.0.0",
