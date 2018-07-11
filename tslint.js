@@ -5,7 +5,7 @@ module.exports = {
     'tslint-clean-code'
   ],
   rules: {
-    // TSLint rules
+    // TSLint
     'max-line-length': {
       'severity': 'warning',
       'options': [
@@ -147,7 +147,8 @@ module.exports = {
       'check-type-operator',
       'check-preblock'
     ],
-    // TSLint ESLint rules
+
+    // TSLint / ESLint
     'no-constant-condition': [
       true,
       {
@@ -189,7 +190,9 @@ module.exports = {
       true,
       'always'
     ],
-    // tslint-clean-code rules
+    'sort-imports': true,
+
+    // Clean Code
     'no-commented-out-code': { 'severity': 'warning' }
   }
 }
