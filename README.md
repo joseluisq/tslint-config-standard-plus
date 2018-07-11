@@ -18,6 +18,19 @@ yarn add tslint-config-standard-plus --dev
 npm install tslint-config-standard-plus --save-dev
 ```
 
+## Rules
+
+- :1st_place_medal: [standardjs](http://standardjs.com/) — inspiration
+- :1st_place_medal: [dcl-tslint-config-standard](https://github.com/decentraland/dcl-tslint-config-standard) — current fork
+- :1st_place_medal: [tslint-config-standard](https://github.com/blakeembrey/tslint-config-standard) — dcl-tslint fork
+- :medal_sports: [tslint-clean-code](https://github.com/Glavin001/tslint-clean-code) — __current dependency__
+- :medal_sports: [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules) — __current dependency__
+- :medal_sports: [tslint-no-circular-imports](https://github.com/bcherny/tslint-no-circular-imports) — __current dependency__
+
+:rocket: Check out all rules in [tslint.js](./tslint.js) file.
+
+> :tada::tada::tada: This config exists thanks to these __awesome__ [TSLint](https://palantir.github.io/tslint/) config projects listed above :tada::tada::tada:
+
 ## Usage
 
 In your `tslint.json` file:
@@ -27,18 +40,6 @@ In your `tslint.json` file:
   "extends": "tslint-config-standard-plus"
 }
 ```
-
-## Rules
-
-Check out all rules in [tslint.js](./tslint.js) file.
-
-## Inspiration
-This config is highly inspired by these awesome projects:
-
-- [tslint-clean-code](https://github.com/Glavin001/tslint-clean-code) [dependency]
-- [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules) [dependency]
-- [tslint-no-circular-imports](https://github.com/bcherny/tslint-no-circular-imports) [dependency]
-- [dcl-tslint-config-standard](https://github.com/decentraland/dcl-tslint-config-standard) [fork]
 
 ## Contributions
 
