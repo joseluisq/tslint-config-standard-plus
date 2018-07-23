@@ -29,6 +29,14 @@
     "url": "http://git.io/joseluisq"
   },
   "license": "MIT",
+  "dependencies": {
+    "tslint-clean-code": "^0.2.7",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-no-circular-imports": "^0.5.0"
+  },
+  "peerDependencies": {
+    "typescript": ">=2.9.0"
+  },
   "devDependencies": {
     "@types/node": "^10.5.2",
     "babel-eslint": "^8.2.5",
@@ -41,12 +49,7 @@
     "eslint-plugin-standard": "^3.1.0",
     "standard": "^11.0.1",
     "tap-spec": "^5.0.0",
-    "tslint": "^5.10.0",
+    "tslint": "^5.11.0",
     "typescript": "^2.9.2"
-  },
-  "dependencies": {
-    "tslint-clean-code": "^0.2.7",
-    "tslint-eslint-rules": "^5.3.1",
-    "tslint-no-circular-imports": "^0.5.0"
   }
 }
