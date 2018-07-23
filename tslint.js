@@ -69,10 +69,6 @@ module.exports = {
         'allow-tagged-template'
       ]
     },
-    'no-unused-variable': {
-      'severity': 'warning',
-      'options': { 'ignore-pattern': '^_' }
-    },
     'no-use-before-declare': true,
     'no-var-keyword': true,
     'return-undefined': true,
