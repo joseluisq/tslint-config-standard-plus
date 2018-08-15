@@ -152,6 +152,9 @@ module.exports = {
         'module-source-path': 'basename'
       }
     },
+    'no-inferrable-types': {
+      'severity': 'warning'
+    },
 
     // TSLint / ESLint
     'no-constant-condition': [
