@@ -3,12 +3,16 @@ ERROR: /rules/handle-callback-err.ts[1, 21]: Expected error to be handled
 ERROR: /rules/import-spacing.ts[1, 7]: missing whitespace
 ERROR: /rules/import-spacing.ts[1, 7]: A space is required after '{'
 ERROR: /rules/import-spacing.ts[1, 8]: missing whitespace
-ERROR: /rules/import-spacing.ts[1, 22]: missing whitespace
 ERROR: /rules/import-spacing.ts[1, 22]: A space is required before '}'
+ERROR: /rules/import-spacing.ts[1, 22]: missing whitespace
 ERROR: /rules/import-spacing.ts[2, 8]: A space is required after '{'
 ERROR: /rules/import-spacing.ts[2, 9]: missing whitespace
 ERROR: /rules/import-spacing.ts[2, 17]: missing whitespace
 ERROR: /rules/import-spacing.ts[2, 17]: A space is required before '}'
+ERROR: /rules/no-any.ts[2, 15]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
+ERROR: /rules/no-any.ts[3, 16]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
+ERROR: /rules/no-any.ts[4, 15]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
+ERROR: /rules/no-any.ts[5, 14]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
 ERROR: /rules/no-constant-condition.ts[1, 5]: unexpected constant condition
 WARNING: /rules/no-inner-declarations.ts[1, 17]: Type number trivially inferred from a number literal, remove type annotation
 ERROR: /rules/no-inner-declarations.ts[4, 3]: move function declaration to program root
@@ -19,6 +23,8 @@ ERROR: /rules/object-destruct-spacing.ts[1, 19]: A space is required before '}'
 ERROR: /rules/object-destruct-spacing.ts[1, 26]: A space is required after '{'
 ERROR: /rules/object-destruct-spacing.ts[1, 32]: A space is required before '}'
 WARNING: /rules/ordered-imports.ts[1, 10]: Named imports must be alphabetized.
+ERROR: /rules/prefer-readonly.ts[2, 14]: Missing whitespace before function parens
+WARNING: /rules/prefer-readonly.ts[2, 23]: Private member variable 'a' is never reassigned; mark it as 'readonly'.
 ERROR: /rules/semicolon.ts[1, 24]: Unnecessary semicolon
 ERROR: /rules/space-within-parens.ts[1, 16]: Whitespace within parentheses is not allowed
 ERROR: /rules/space-within-parens.ts[1, 21]: Whitespace within parentheses is not allowed

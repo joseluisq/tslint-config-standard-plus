@@ -778,6 +778,10 @@ get-stdin@^6.0.0:
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/get-stdin/-/get-stdin-6.0.0.tgz#9e09bf712b360ab9225e812048f71fde9c89657b"
 
+git-testing-hook@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/git-testing-hook/-/git-testing-hook-0.3.0.tgz#2302fbaa507523006c66ae92957aee870ad64f85"
+
 glob@^7.0.3, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2, glob@~7.1.2:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"

@@ -41,6 +41,23 @@ In your `tslint.json` file:
 }
 ```
 
+### Recommended
+
+Add `"strict": true` to your `tsconfig.json` to enables all [strict type checking options](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
+
+### Overwrite rules
+
+If you want to overwrite some specific rule add `"rules" section after` `"extends"`.
+
+```json
+{
+  "extends": "tslint-config-standard-plus",
+  "rules": {
+    "no-any": false
+  }
+}
+```
+
 ## Contributions
 
 Feel free to send some [Pull request](https://github.com/joseluisq/tslint-config-standard-plus/pulls) or [issue](https://github.com/joseluisq/tslint-config-standard-plus/issues).

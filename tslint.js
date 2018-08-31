@@ -155,6 +155,10 @@ module.exports = {
     'no-inferrable-types': {
       'severity': 'warning'
     },
+    'no-any': true,
+    'prefer-readonly': {
+      'severity': 'warning'
+    },
 
     // TSLint / ESLint
     'no-constant-condition': [
