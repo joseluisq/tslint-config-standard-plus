@@ -47,7 +47,7 @@ Add `"strict": true` to your `tsconfig.json` to enables all [strict type checkin
 
 ### Overwrite rules
 
-If you want to overwrite some specific rule add `"rules" section after` `"extends"`.
+If you want to overwrite some specific rules add `"rules"` section after `"extends"`.
 
 ```json
 {
