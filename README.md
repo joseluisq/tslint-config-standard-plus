@@ -1,10 +1,12 @@
-# TSLint Config Standard Plus :green_apple::orange::lemon:
+# TSLint Config Standard Plus :green_apple:
 
 [![Build Status](https://travis-ci.org/joseluisq/tslint-config-standard-plus.svg?branch=master)](https://travis-ci.org/joseluisq/tslint-config-standard-plus) [![npm](https://img.shields.io/npm/v/tslint-config-standard-plus.svg)](https://www.npmjs.com/package/tslint-config-standard-plus) [![npm](https://img.shields.io/npm/dt/tslint-config-standard-plus.svg)](https://www.npmjs.com/package/tslint-config-standard-plus) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 > A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/) with a plus of useful rules.
 
-__Note:__ This config exists thanks to these __awesome__ [TSLint](https://palantir.github.io/tslint/) config projects listed below :tada:
+This [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) contains [JavaScript Standard Style](http://standardjs.com/) rules as well as a set of additional rules that will help you with syntactic & semantic checks of your TypeScript source code.
+
+*__Note:__ This config exists thanks to these __awesome__ [TSLint](https://palantir.github.io/tslint/) config projects listed above :tada:*
 
 ## Rules
 
