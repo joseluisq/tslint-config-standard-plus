@@ -6,7 +6,7 @@
 
 This [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) contains [JavaScript Standard Style](http://standardjs.com/) rules as well as a set of additional rules that will help you with syntactic & semantic checks of your TypeScript source code.
 
-*__Note:__ This config exists thanks to these __awesome__ [TSLint](https://palantir.github.io/tslint/) config projects listed above :tada:*
+*__Note:__ This repo exists thanks to these __awesome__ [TSLint](https://palantir.github.io/tslint/) config projects listed below :tada:*
 
 ## Rules
 
