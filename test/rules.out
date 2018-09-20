@@ -9,10 +9,10 @@ ERROR: /rules/import-spacing.ts[2, 8]: A space is required after '{'
 ERROR: /rules/import-spacing.ts[2, 9]: missing whitespace
 ERROR: /rules/import-spacing.ts[2, 17]: missing whitespace
 ERROR: /rules/import-spacing.ts[2, 17]: A space is required before '}'
-ERROR: /rules/no-any.ts[2, 15]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
-ERROR: /rules/no-any.ts[3, 16]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
-ERROR: /rules/no-any.ts[4, 15]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
-ERROR: /rules/no-any.ts[5, 14]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
+WARNING: /rules/no-any.ts[2, 15]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
+WARNING: /rules/no-any.ts[3, 16]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
+WARNING: /rules/no-any.ts[4, 15]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
+WARNING: /rules/no-any.ts[5, 14]: Type declaration of 'any' loses type-safety. Consider replacing it with a more precise type.
 ERROR: /rules/no-constant-condition.ts[1, 5]: unexpected constant condition
 WARNING: /rules/no-inner-declarations.ts[1, 17]: Type number trivially inferred from a number literal, remove type annotation
 ERROR: /rules/no-inner-declarations.ts[4, 3]: move function declaration to program root

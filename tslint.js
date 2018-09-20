@@ -155,7 +155,9 @@ module.exports = {
     'no-inferrable-types': {
       'severity': 'warning'
     },
-    'no-any': true,
+    'no-any': {
+      'severity': 'warning'
+    },
     'prefer-readonly': {
       'severity': 'warning'
     },
