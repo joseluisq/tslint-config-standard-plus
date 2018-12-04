@@ -30,15 +30,15 @@
   },
   "license": "MIT",
   "dependencies": {
-    "tslint-clean-code": "^0.2.7",
-    "tslint-eslint-rules": "^5.3.1",
-    "tslint-no-circular-imports": "^0.5.0"
+    "tslint-clean-code": "^0.2.9",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-no-circular-imports": "^0.6.1"
   },
   "peerDependencies": {
     "typescript": ">=2.9.0"
   },
   "devDependencies": {
-    "@types/node": "^10.5.2",
+    "@types/node": "^10.12.12",
     "babel-eslint": "^8.2.5",
     "blue-tape": "^1.0.0",
     "eslint": "^5.1.0",
