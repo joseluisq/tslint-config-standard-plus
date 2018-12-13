@@ -50,7 +50,10 @@ module.exports = {
         'variable-declaration': 'onespace'
       }
     ],
-    'await-promise': true,
+    'await-promise': [
+      true,
+      'Bluebird'
+    ],
     curly: [ true, 'ignore-same-line' ],
     'label-position': true,
     'no-arg': true,
