@@ -43,10 +43,6 @@ In your `tslint.json` file:
 }
 ```
 
-### Recommended
-
-Add `"strict": true` to your `tsconfig.json` to enables all [strict type checking options](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
-
 ### Overwrite rules
 
 If you want to overwrite some specific rules add `"rules"` section after `"extends"`.
@@ -59,6 +55,12 @@ If you want to overwrite some specific rules add `"rules"` section after `"exten
   }
 }
 ```
+
+### Recommended
+
+- Add `"strict": true` to your `tsconfig.json` to enables all [strict type checking options](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
+- Add `"noUnusedLocals": true` & `"noUnusedParameters": true` to your `tsconfig` - [tslint no-unused-variable rule doesn't report warnings any more?](https://github.com/Microsoft/vscode-tslint/blob/master/tslint/README.md#the-tslint-no-unused-variable-rule-doesnt-report-warnings-any-more)
+- Read [Microsoft announce about deprecation of vscode-tslint](https://github.com/Microsoft/vscode-tslint/blob/master/tslint/README.md#faq)
 
 ## Contributions
 
