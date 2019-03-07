@@ -1720,9 +1720,10 @@ tslint-eslint-rules@^5.4.0:
     tslib "1.9.0"
     tsutils "^3.0.0"
 
-tslint-no-circular-imports@^0.6.1:
-  version "0.6.1"
-  resolved "https://registry.yarnpkg.com/tslint-no-circular-imports/-/tslint-no-circular-imports-0.6.1.tgz#a91358395a81c067bf104a641f269655057715cd"
+tslint-no-circular-imports@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/tslint-no-circular-imports/-/tslint-no-circular-imports-0.6.2.tgz#ee00dbf6ebb98f8de45a8e3bf743d2656b2e8df4"
+  integrity sha512-WtOE8ArVcZzFDw62Ya/tzk0VeB4xLh4V0Eft2jxKHqUpDzz2S6J63AnhQv3YVyChaj7G4tBhPBE0tcVAflsw4A==
 
 tslint@^5.11.0:
   version "5.11.0"

@@ -32,7 +32,7 @@
   "dependencies": {
     "tslint-clean-code": "^0.2.9",
     "tslint-eslint-rules": "^5.4.0",
-    "tslint-no-circular-imports": "^0.6.1"
+    "tslint-no-circular-imports": "^0.6.2"
   },
   "peerDependencies": {
     "typescript": ">=2.9.0"

@@ -70,4 +70,4 @@ Feel free to send some [Pull request](https://github.com/joseluisq/tslint-config
 
 MIT license
 
-© 2018 [José Luis Quintana](http://git.io/joseluisq)
+© 2018-present [Jose Quintana](http://git.io/joseluisq)
