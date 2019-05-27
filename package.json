@@ -39,7 +39,7 @@
   },
   "devDependencies": {
     "@types/node": "^10.12.12",
-    "babel-eslint": "^8.2.5",
+    "babel-eslint": "^10.0.1",
     "blue-tape": "^1.0.0",
     "eslint": "^5.1.0",
     "eslint-config-standard": "^11.0.0",
