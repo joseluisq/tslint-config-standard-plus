@@ -1,7 +1,9 @@
-.DS_Store
-coverage/
-node_modules/
-npm-debug.log
+node_modules
+coverage
+dist
+**/.DS_Store
 *.log
-dist/
-typings/
+/*.js
+/*.map
+/*.d.ts
+*cache

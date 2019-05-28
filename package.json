@@ -2,18 +2,11 @@
   "name": "tslint-config-standard-plus",
   "version": "2.1.4",
   "description": "A TSLint config for JavaScript Standard Style with a plus of useful rules.",
-  "main": "tslint.js",
-  "files": [
-    "tslint.js",
-    "README.md",
-    "LICENSE.md"
-  ],
-  "scripts": {
-    "lint": "standard --parser babel-eslint",
-    "test:gen": "GENERATE_ASSETS=true blue-tape test/index.js",
-    "test:spec": "blue-tape test/index.js | tap-spec",
-    "test": "npm run lint && npm run test:spec"
+  "author": {
+    "name": "Jose Quintana",
+    "url": "http://git.io/joseluisq"
   },
+  "license": "MIT",
   "repository": "joseluisq/tslint-config-standard-plus",
   "keywords": [
     "tslint",
@@ -21,36 +14,51 @@
     "standard",
     "standardjs",
     "typescript",
-    "plus",
-    "ts"
+    "code style",
+    "semantic"
   ],
-  "author": {
-    "name": "José Quintana",
-    "url": "http://git.io/joseluisq"
+  "main": "tslint.json",
+  "files": [
+    "tslint.json",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "test": "yarn lint && jest",
+    "lint": "tslint --format stylish --project tsconfig.json"
   },
-  "license": "MIT",
+  "peerDependencies": {
+    "tslint": ">=5.0.0",
+    "typescript": ">=2.9.0"
+  },
   "dependencies": {
     "tslint-clean-code": "^0.2.9",
     "tslint-eslint-rules": "^5.4.0",
     "tslint-no-circular-imports": "^0.6.2"
   },
-  "peerDependencies": {
-    "typescript": ">=2.9.0"
-  },
   "devDependencies": {
-    "@types/node": "^10.12.12",
-    "babel-eslint": "^8.2.5",
-    "blue-tape": "^1.0.0",
-    "eslint": "^5.1.0",
-    "eslint-config-standard": "^11.0.0",
-    "eslint-plugin-import": "^2.13.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.8.0",
-    "eslint-plugin-standard": "^3.1.0",
+    "@types/jest": "^24.0.13",
+    "@types/node": "^10.14.7",
     "git-testing-hook": "^0.3.0",
-    "standard": "^11.0.1",
-    "tap-spec": "^5.0.0",
+    "jest": "^24.8.0",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.2.0",
     "tslint": "^5.11.0",
     "typescript": "^2.9.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.ts$": "ts-jest"
+    },
+    "transformIgnorePatterns": [],
+    "testMatch": [
+      "**/test/**.spec.ts"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "js",
+      "json",
+      "node"
+    ]
   }
 }
