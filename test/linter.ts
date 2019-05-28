@@ -13,6 +13,14 @@ export interface TSLinterSettings {
   }
 }
 
+/** Contains a TSLint Failure but with essential properties */
+export interface TSLintShortFailure {
+  id: number
+  failure: string
+  ruleName: string
+  fileName: string
+}
+
 /** Creates a new Linter (TSLint instance) */
 export function createLinter ({ typescript, tslint }: TSLinterSettings) {
   const program = Linter.createProgram(typescript.configFile, typescript.projectDirectory)
