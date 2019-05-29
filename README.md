@@ -4,13 +4,21 @@
 
 > A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/) with a plus of useful rules.
 
-This [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) contains [JavaScript Standard Style](http://standardjs.com/) rules as well as a set of additional rules that will help you with syntactic & semantic checks of your TypeScript source code.
+This [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) contains [JavaScript Standard Style](http://standardjs.com/) rules as well as a set of additional rules that will help you with syntactic & semantic checks of your TypeScript code.
 
-*__Note:__ This repo exists thanks to these __awesome__ [TSLint](https://palantir.github.io/tslint/) config projects listed below :tada:*
+## Features
+
+- [Typescript Standard Style](https://github.com/blakeembrey/tslint-config-standard) by [StandardJS](https://standardjs.com/) rules set.
+- [Clean Code](https://github.com/Glavin001/tslint-clean-code#supported-rules) rules set. *__(plus)__*
+- [TSLint-ESLint](https://github.com/joseluisq/tslint-config-standard-plus/blob/master/tslint.json#L189) additional rules set. *__(plus)__*
+- [no-circular-imports](https://github.com/bcherny/tslint-no-circular-imports) rule. *__(plus)__*
+- [VS Code User Workspace](https://code.visualstudio.com/docs/getstarted/settings) pre-configured and ready to use.
 
 ## Rules
 
-- :1st_place_medal: [standardjs](http://standardjs.com/) — inspiration
+*This repo exists thanks to these __awesome__ [TSLint](https://palantir.github.io/tslint/) config projects listed below :tada:*
+
+- :1st_place_medal: [standardjs](https://standardjs.com/) — inspiration
 - :1st_place_medal: [dcl-tslint-config-standard](https://github.com/decentraland/dcl-tslint-config-standard) — current fork
 - :1st_place_medal: [tslint-config-standard](https://github.com/blakeembrey/tslint-config-standard) — dcl-tslint fork
 - :medal_sports: [tslint-clean-code](https://github.com/Glavin001/tslint-clean-code) — __current dependency__
@@ -18,6 +26,12 @@ This [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) conta
 - :medal_sports: [tslint-no-circular-imports](https://github.com/bcherny/tslint-no-circular-imports) — __current dependency__
 
 🚀See all rules in [tslint.json](./tslint.json) file and examples at [Printd](https://github.com/joseluisq/printd) or [Hyperapp Starter](https://github.com/joseluisq/hyperapp-starter) source code.
+
+## Formatter
+
+Many of the rules set include formatting feature built-in. This repository contains a [VS Code User Workspace](https://code.visualstudio.com/docs/getstarted/settings) pre-configured that you can use in order to gain all rules sets benefits just saving your files (`ctrl + S`).
+
+For more details, take a look at [.vscode](./.vscode) directory.
 
 ## Install
 
