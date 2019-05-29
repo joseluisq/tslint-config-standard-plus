@@ -4,7 +4,7 @@
 
 > A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/) with a plus of useful rules.
 
-This [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) contains [JavaScript Standard Style](http://standardjs.com/) rules as well as a set of additional rules that will help you with syntactic & semantic checks of your TypeScript code.
+__TSLint Config Standard Plus__ contains a [JavaScript Standard Style](http://standardjs.com/) rules as well as a set of additional rules that will help you with syntactic & semantic checks of your TypeScript code in development.
 
 ## Features
 
@@ -12,6 +12,7 @@ This [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) conta
 - [Clean Code](https://github.com/Glavin001/tslint-clean-code#supported-rules) rules set. *__(plus)__*
 - [TSLint-ESLint](https://github.com/joseluisq/tslint-config-standard-plus/blob/master/tslint.json#L189) additional rules set. *__(plus)__*
 - [no-circular-imports](https://github.com/bcherny/tslint-no-circular-imports) rule. *__(plus)__*
+- Small because only exports a [tslint.json](./tslint.json).
 - [VS Code User Workspace](https://code.visualstudio.com/docs/getstarted/settings) pre-configured and ready to use.
 
 ## Rules
@@ -25,11 +26,11 @@ This [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) conta
 - :medal_sports: [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules) — __current dependency__
 - :medal_sports: [tslint-no-circular-imports](https://github.com/bcherny/tslint-no-circular-imports) — __current dependency__
 
-🚀See all rules in [tslint.json](./tslint.json) file and examples at [Printd](https://github.com/joseluisq/printd) or [Hyperapp Starter](https://github.com/joseluisq/hyperapp-starter) source code.
+🚀 See all rules in [tslint.json](./tslint.json) file and examples at [Printd](https://github.com/joseluisq/printd) or [Hyperapp Starter](https://github.com/joseluisq/hyperapp-starter) source code.
 
 ## Formatter
 
-Many of the rules set include formatting feature built-in. This repository contains a [VS Code User Workspace](https://code.visualstudio.com/docs/getstarted/settings) pre-configured that you can use in order to gain all rules sets benefits just saving your files (`ctrl + S`).
+Many of the rules set include formatting feature built-in. This repository contains a [VS Code User Workspace](https://code.visualstudio.com/docs/getstarted/settings) pre-configured that you can use in order to gain all rule sets benefits just saving your files (`ctrl/cmd + S`).
 
 For more details, take a look at [.vscode](./.vscode) directory.
 
@@ -59,18 +60,19 @@ In your `tslint.json` file:
 
 ### Overwrite rules
 
-If you want to overwrite some specific rules add `"rules"` section after `"extends"`.
+To overwrite some specific rules add `"rules"` section after `"extends"` in your `tslint.json` file.
 
 ```json
 {
   "extends": "tslint-config-standard-plus",
+
   "rules": {
     "no-any": false
   }
 }
 ```
 
-### Recommended
+### Recommendations
 
 - Add `"strict": true` to your `tsconfig.json` to enables all [strict type checking options](https://www.typescriptlang.org/docs/handbook/compiler-options.html).
 - Add `"noUnusedLocals": true` & `"noUnusedParameters": true` to your `tsconfig` - [tslint no-unused-variable rule doesn't report warnings any more?](https://github.com/Microsoft/vscode-tslint/blob/master/tslint/README.md#the-tslint-no-unused-variable-rule-doesnt-report-warnings-any-more)
