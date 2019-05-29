@@ -17,7 +17,7 @@ This [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) conta
 - :medal_sports: [tslint-eslint-rules](https://github.com/buzinas/tslint-eslint-rules) — __current dependency__
 - :medal_sports: [tslint-no-circular-imports](https://github.com/bcherny/tslint-no-circular-imports) — __current dependency__
 
-See all rules in [tslint.js](./tslint.js) file and one example at [hyperapp-starter](https://github.com/joseluisq/hyperapp-starter) source code.
+🚀See all rules in [tslint.json](./tslint.json) file and examples at [Printd](https://github.com/joseluisq/printd) or [Hyperapp Starter](https://github.com/joseluisq/hyperapp-starter) source code.
 
 ## Install
 
