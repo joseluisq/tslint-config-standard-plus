@@ -34,7 +34,7 @@
   "dependencies": {
     "tslint-clean-code": "^0.2.9",
     "tslint-eslint-rules": "^5.4.0",
-    "tslint-no-circular-imports": "^0.6.2"
+    "tslint-no-circular-imports": "^0.7.0"
   },
   "devDependencies": {
     "@types/jest": "^24.0.13",
