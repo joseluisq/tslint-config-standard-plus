@@ -75,7 +75,6 @@
         "allow-tagged-template"
       ]
     },
-    "no-use-before-declare": true,
     "no-var-keyword": true,
     "return-undefined": true,
     "space-within-parens": [
