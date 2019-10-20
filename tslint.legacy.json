@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "./tslint.json"
+  ],
+  "rules": {
+    "quotemark": [
+      true,
+      "double",
+      "avoid-escape",
+      "jsx-double"
+    ],
+    "indent": [
+      true,
+      "spaces",
+      4
+    ]
+  }
+}

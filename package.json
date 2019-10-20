@@ -20,6 +20,7 @@
   "main": "tslint.json",
   "files": [
     "tslint.json",
+    "tslint.legacy.json",
     "README.md",
     "LICENSE.md"
   ],
