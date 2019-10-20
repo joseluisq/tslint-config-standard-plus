@@ -32,19 +32,19 @@
     "typescript": ">=2.9.0"
   },
   "dependencies": {
-    "tslint-clean-code": "^0.2.9",
+    "tslint-clean-code": "^0.2.10",
     "tslint-eslint-rules": "^5.4.0",
     "tslint-no-circular-imports": "^0.7.0"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.13",
+    "@types/jest": "^24.0.19",
     "@types/node": "^10.14.7",
     "git-testing-hook": "^0.3.0",
-    "jest": "^24.8.0",
-    "ts-jest": "^24.0.2",
-    "ts-node": "^8.2.0",
-    "tslint": "^5.11.0",
-    "typescript": "^3.5.1"
+    "jest": "^24.9.0",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
   },
   "jest": {
     "transform": {
