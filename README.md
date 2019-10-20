@@ -15,6 +15,14 @@ __TSLint Config Standard Plus__ contains a [JavaScript Standard Style](http://st
 - Small because only exports a [tslint.json](./tslint.json).
 - [VS Code User Workspace](https://code.visualstudio.com/docs/getstarted/settings) pre-configured and ready to use.
 
+### Config Standard Plus Legacy
+
+Optional tslint config ([tslint.legacy.json](./tslint.legacy.json)) that extends from default [tslint.json](./tslint.json) but with additional rules overwritten:
+
+- Enforce consistent spaces like the default config.
+- Enforce "double" quotes instead of 'single' ones.
+- Enforce 4 space indentation instead of 2.
+
 ## Rules
 
 *This repo exists thanks to these __awesome__ [TSLint](https://palantir.github.io/tslint/) config projects listed below :tada:*
@@ -50,11 +58,21 @@ npm install tslint-config-standard-plus --save-dev
 
 ## Usage
 
-In your `tslint.json` file:
+Setup your `tslint.json` in your project as follow:
+
+### Config Standard Plus (default)
 
 ```json
 {
   "extends": "tslint-config-standard-plus"
+}
+```
+
+### Config Standard Plus Legacy (optional)
+
+```json
+{
+  "extends": "tslint-config-standard-plus/tslint.legacy"
 }
 ```
 
