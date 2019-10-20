@@ -1,6 +1,6 @@
 {
   "name": "tslint-config-standard-plus",
-  "version": "2.2.0",
+  "version": "2.3.0-beta.0",
   "description": "A TSLint config for JavaScript Standard Style with a plus of useful rules.",
   "author": {
     "name": "Jose Quintana",
