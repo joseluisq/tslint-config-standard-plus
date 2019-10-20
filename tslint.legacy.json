@@ -14,5 +14,12 @@
       "spaces",
       4
     ]
-  }
+  },
+  "ter-indent": [
+    true,
+    4,
+    {
+      "SwitchCase": 1
+    }
+  ]
 }
