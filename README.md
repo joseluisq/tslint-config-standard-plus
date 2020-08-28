@@ -4,6 +4,8 @@
 
 > A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/) with a plus of useful rules.
 
+**⚠️ TSLint is deprecated** but not this repository for *"now"*. More details at https://github.com/palantir/tslint.
+
 __TSLint Config Standard Plus__ contains a [JavaScript Standard Style](http://standardjs.com/) rules as well as a set of additional rules that will help you with syntactic & semantic checks of your TypeScript code in development.
 
 ## Features
