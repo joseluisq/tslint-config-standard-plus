@@ -1,6 +1,6 @@
 # TSLint Config Standard Plus :green_apple:
 
-[![Build Status](https://travis-ci.com/joseluisq/tslint-config-standard-plus.svg?branch=master)](https://travis-ci.com/joseluisq/tslint-config-standard-plus) [![npm](https://img.shields.io/npm/v/tslint-config-standard-plus.svg)](https://www.npmjs.com/package/tslint-config-standard-plus) [![npm](https://img.shields.io/npm/dt/tslint-config-standard-plus.svg)](https://www.npmjs.com/package/tslint-config-standard-plus) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+![CI](https://github.com/joseluisq/tslint-config-standard-plus/workflows/CI/badge.svg?branch=master) [![npm](https://img.shields.io/npm/v/tslint-config-standard-plus.svg)](https://www.npmjs.com/package/tslint-config-standard-plus) [![npm](https://img.shields.io/npm/v/tslint-config-standard-plus.svg)](https://www.npmjs.com/package/tslint-config-standard-plus) [![npm](https://img.shields.io/npm/dt/tslint-config-standard-plus.svg)](https://www.npmjs.com/package/tslint-config-standard-plus) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 > A [TSLint config](https://palantir.github.io/tslint/usage/tslint-json/) for [JavaScript Standard Style](http://standardjs.com/) with a plus of useful rules.
 

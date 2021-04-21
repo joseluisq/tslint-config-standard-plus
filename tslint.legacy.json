@@ -1,25 +1,25 @@
 {
-  "extends": [
-    "./tslint.json"
-  ],
-  "rules": {
-    "quotemark": [
-      true,
-      "double",
-      "avoid-escape",
-      "jsx-double"
+    "extends": [
+        "./tslint.json"
     ],
-    "indent": [
-      true,
-      "spaces",
-      4
-    ],
-    "ter-indent": [
-      true,
-      4,
-      {
-        "SwitchCase": 1
-      }
-    ]
-  }
+    "rules": {
+        "quotemark": [
+            true,
+            "double",
+            "avoid-escape",
+            "jsx-double"
+        ],
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "ter-indent": [
+            true,
+            4,
+            {
+                "SwitchCase": 1
+            }
+        ]
+    }
 }

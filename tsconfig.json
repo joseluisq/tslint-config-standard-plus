@@ -1,33 +1,33 @@
 {
-  "compileOnSave": false,
-  "include": [
-    "test/**.spec.*"
-  ],
-  "exclude": [
-    "dist",
-    "node_modules"
-  ],
-  "compilerOptions": {
-    "strict": true,
-    "noEmit": true,
-    "declaration": false,
-    "sourceMap": true,
-    "pretty": true,
-    "moduleResolution": "node",
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "module": "commonjs",
-    "target": "es6",
-    "typeRoots": [
-      "node_modules/@types"
+    "compileOnSave": false,
+    "include": [
+        "test/**.spec.*"
     ],
-    "types": [
-      "@types/node",
-      "@types/jest"
+    "exclude": [
+        "dist",
+        "node_modules"
     ],
-    "lib": [
-      "es6"
-    ]
-  }
+    "compilerOptions": {
+        "strict": true,
+        "noEmit": true,
+        "declaration": false,
+        "sourceMap": true,
+        "pretty": true,
+        "moduleResolution": "node",
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "module": "commonjs",
+        "target": "es6",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+        "types": [
+            "@types/node",
+            "@types/jest"
+        ],
+        "lib": [
+            "es6"
+        ]
+    }
 }
